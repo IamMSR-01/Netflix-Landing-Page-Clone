@@ -1,0 +1,693 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/655a9668-b002-4262-8afb-cf71e45d1956/5ff265b6-3037-44b2-b071-e81750b21783/IN-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_c6d6616f-4478-4ac2-bdac-f54b444771dd_large.jpg);
+    height: 95vh;
+    width: 100%;
+    position: absolute;
+}
+
+.box {
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.65;
+    position: absolute;
+}
+
+nav {
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 80px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.btn {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    z-index: 10;
+}
+
+.btn1 {
+    height: 35px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    width: 130px;
+    border: 0.1px solid rgba(255, 255, 255, 0.775);
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.322);
+    cursor: pointer;
+}
+
+.btn2 {
+    height: 35px;
+    width: 80px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    background-color: rgba(228, 27, 27, 0.866);
+}
+
+.c1 {
+    width: 100%;
+    color: white;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 35vh;
+    font-size: 2.8rem;
+    font-weight: 900;
+    font-family: sans-serif
+}
+
+.c2 {
+    width: 100%;
+    color: white;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 44vh;
+    font-size: 1.4rem;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.c3 {
+    width: 100%;
+    color: white;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 50vh;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.int {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    margin-top: 57vh;
+}
+
+input {
+    height: 53px;
+    width: 350px;
+    border: 0.1px solid white;
+    background-color: rgba(0, 0, 0, 0.216);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: white;
+}
+
+.start {
+    height: 58px;
+    color: white;
+    border-style: none;
+    background-color: red;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.start:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.755);
+}
+
+.line {
+    width: 100%;
+    height: 9px;
+    background-color: rgb(43, 40, 40);
+    margin-top: 95vh;
+}
+
+.page2 {
+    background-color: black;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 96vh;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.page2 h1 {
+    color: white;
+    font-size: 3rem;
+    margin-left: 150px;
+    font-weight: 900;
+}
+
+.v1 {
+    position: relative;
+}
+
+.v1 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 238px;
+    width: 465px;
+    margin-top: 140px;
+    margin-left: 55px;
+    /* z-index: 1; */
+}
+
+.tv {
+    height: 435.9px;
+    position: relative;
+    z-index: 1;
+    width: 581.2px;
+    margin-right: 125px;
+}
+
+.page2 h2 {
+    color: white;
+    margin-left: 150px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.line2 {
+    background-color: rgb(43, 40, 40);
+    height: 8px;
+    width: 100%;
+    position: absolute;
+    margin-top: 170vh;
+}
+
+.page3 {
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    margin-top: 171vh;
+    display: flex;
+
+
+}
+
+.phone {
+    width: 40%;
+    position: relative;
+}
+
+.phone img {
+    color: white;
+    height: 436px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 581px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    /* margin-bottom: 500px; */
+}
+
+.phone2 {
+    height: 100px;
+    width: 310px;
+    position: absolute;
+   left: 285px;
+   padding: 5px;
+    top: 355px;
+    display: flex;
+    background-color: black;
+    border: 2px solid rgb(111, 106, 106);
+    border-radius: 12px;
+}
+
+
+.phone2> img{
+    width: 72px;
+    height: 92px;
+    position: absolute;
+    padding: 8px;
+    margin: 0%;
+
+}
+.phone2 h5{
+    color: white;
+    margin-left: 75px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.phone2 h6{
+    color:  #0071eb;
+    font-weight: 400;
+    margin-left: 75px;
+    font-size: 1rem;
+}
+.download{
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    content: '';
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.pg3c {
+    width: 55%;
+    margin-right: 100px;
+    margin-top: 150px;
+}
+
+.pg3c h1 {
+    color: white;
+    font-size: 3rem;
+    margin-right: 50px;
+    margin-left: 150px;
+    font-weight: 900;
+    margin-bottom: 70p/x;
+    padding: 0%;
+    margin-right: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pg3c p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 0%;
+    font-weight: 100;
+    color: white;
+    margin-left: 150px;
+    margin-right: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box2 {
+    height: 95px;
+    width: 375px;
+    border: 1px solid white;
+}
+
+.line3 {
+    height: 8px;
+    width: 100%;
+    background-color: rgb(43, 40, 40);
+    position: absolute;
+    margin-top: 246vh;
+}
+
+.page4 {
+    height: 78vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    margin-top: 247vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page4 .pg4c {
+    height: 70vh;
+    width: 45%;
+    margin-right: 48px;
+    margin-top: 50px;
+}
+
+.page4 .pg4c h1 {
+    color: white;
+    margin-top: 150px;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 170px;
+}
+
+.page4 .pg4c p {
+    color: white;
+    margin-top: 10px;
+    margin-left: 170px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.page4 .tv2 {
+    width: 581px;
+    height: 435px;
+    margin-bottom: 110px;
+    margin-right: 150px;
+    position: relative;
+
+}
+
+.tv2 img {
+    width: 581px;
+    height: 435px;
+    margin-bottom: 70px;
+    position: relative;
+    margin-bottom: 50px;
+    z-index: 10;
+}
+.tv2 video{
+    height: 390px;
+    width: 350px;
+    position: absolute;
+    top:0%;
+    margin-bottom: 40px;
+    left: 110px;
+}
+.line4 {
+    background-color: rgb(43, 40, 40);
+    height: 9px;
+    width: 100%;
+    position: absolute;
+    margin-top: 324vh;
+}
+
+.page5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 78vh;
+    position: absolute;
+    width: 100%;
+    margin-top: 325vh;
+    background-color: black;
+}
+
+.page5 .child {
+    height: 70vh;
+    width: 50%;
+}
+
+.page5 .pg4c {
+    height: 70vh;
+    width: 50%;
+}
+
+.childimg {
+    width: 581px;
+    height: 435px;
+    margin-left: 180px;
+}
+
+.page5 .pg4c h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 150px;
+    margin-left: 10px;
+    color: white;
+}
+
+.page5 .pg4c p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 250px;
+}
+
+.line5 {
+    background-color: rgb(43, 40, 40);
+    height: 9px;
+    width: 100%;
+    position: absolute;
+    margin-top: 403vh;
+}
+
+.page6 {
+    height: 981px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    margin-top: 404vh;
+}
+
+.line6 {
+    background-color: rgb(43, 40, 40);
+    height: 9px;
+    width: 100%;
+    position: absolute;
+    margin-top: 538vh;
+    ;
+}
+
+.page6 h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.page6 .faq1 {
+    height: 84px;
+    width: 70%;
+    background-color: rgb(35, 33, 33);
+    border: 0.1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    padding-top: 24px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.page6 .faq1 svg {
+    margin-left: 800px;
+}
+
+.page6 .faq2 {
+    height: 84px;
+    width: 70%;
+    background-color: rgb(35, 33, 33);
+    border: 0.1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    padding-top: 24px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.page6 .faq2 svg {
+    margin-left: 653px;
+}
+
+.page6 .faq3 {
+    height: 84px;
+    width: 70%;
+    background-color: rgb(35, 33, 33);
+    border: 0.1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    padding-top: 24px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.page6 .faq3 svg {
+    margin-left: 759px;
+}
+
+.page6 .faq4 {
+    height: 84px;
+    width: 70%;
+    background-color: rgb(35, 33, 33);
+    border: 0.1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    padding-top: 24px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.page6 .faq4 svg {
+    margin-left: 782px;
+}
+
+.page6 .faq5 {
+    height: 84px;
+    width: 70%;
+    background-color: rgb(35, 33, 33);
+    border: 0.1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    padding-top: 24px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.page6 .faq5 svg {
+    margin-left: 650px;
+}
+
+.page6 .faq6 {
+    height: 84px;
+    width: 70%;
+    background-color: rgb(35, 33, 33);
+    border: 0.1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    padding-top: 24px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.page6 .faq6 svg {
+    margin-left: 700px;
+}
+
+.page6 p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.page6 .int2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.page7 {
+    background-color: black;
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+    margin-top: 539vh;
+}
+
+.page7 h4 {
+    color: white;
+    margin-top: 70px;
+    margin-left: 33vh;
+    cursor: pointer;
+}
+
+.page7 .faq {
+    color: white;
+    display: flex;
+    max-width: 70%;
+    margin-top: 20px;
+    margin-left: 220px;
+    text-decoration: underline;
+}
+
+.page7 .faq p {
+    margin: 20px;
+}
+
+.page7 .faq .privacy {
+    width: 25%;
+}
+
+.page7 .faq .helpcenter {
+    width: 25%;
+}
+
+.page7 .faq .account {
+    width: 25%;
+}
+
+.page7 .faq .mediacenter {
+    width: 25%;
+}
+
+.btn5 {
+    height: 35px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    width: 130px;
+    border: 0.1px solid rgba(255, 255, 255, 0.775);
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.322);
+    margin-left: 33vh;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.page7 p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 240px;
+    margin-top: 30px;
+    cursor: pointer;
+}
